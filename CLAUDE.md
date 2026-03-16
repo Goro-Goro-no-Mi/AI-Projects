@@ -43,7 +43,9 @@ AI_Projects/
 
 ## Git & GitHub Workflow
 
-All changes must be committed and pushed to `origin/master` on GitHub (`Goro-Goro-no-Mi/AI-Projects`).
+**Commit and push frequently throughout all work** — after every meaningful change, not just at the end. This ensures no progress is lost and the history reflects each logical step.
+
+Remote: `origin/master` on GitHub (`Goro-Goro-no-Mi/AI-Projects`)
 
 ```bash
 git add <file>
@@ -51,4 +53,13 @@ git commit -m "concise description of what changed and why"
 git push
 ```
 
-Commit messages should be specific to what changed — not generic ("update tetris.html").
+**When to commit:**
+- After creating a new file or feature
+- After fixing a bug
+- After any significant change to logic, layout, or behavior
+- Before and after a major refactor
+
+**Commit message rules:**
+- Be specific — describe *what* changed and *why*, not just which file
+- Bad: `"update tetris.html"` — Good: `"Fix ghost piece rendering when piece is at spawn row"`
+- Use present tense imperative: `"Add..."`, `"Fix..."`, `"Remove..."`, `"Refactor..."`
